@@ -33,7 +33,8 @@ function Signup() {
                             <div>
                                 <label className="block text-gray-700 text-sm font-bold mb-2">Email Address</label>
                                 <input type="email" className="shadow appearance-none border rounded w-full py-2 px-3 
-                                    text-gray-700 focus:outline-none focus:shadow-outline" />
+                                    text-gray-700 focus:outline-none focus:shadow-outline"
+                                    placeholder="email@company.com" />
                             </div>
                             <div className="pt-4">
                                 <button type="button" className="bg-blue-500 w-full py-2 rounded text-white font-bold
@@ -45,8 +46,9 @@ function Signup() {
                     </div>
                 </div>
                 <div className="md:w-[47%] p-3">
-                    <div className="border rounded">
-                        two
+                    <div className="border rounded h-full bg-no-repeat bg-cover"
+                        style={{ backgroundImage: `url(/bg1.jpeg)` }}>
+                        
                     </div>
                 </div>
             </div>
