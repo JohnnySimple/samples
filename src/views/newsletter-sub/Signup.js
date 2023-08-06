@@ -38,7 +38,7 @@ function Signup() {
                             </div>
                             <div className="pt-4">
                                 <button type="button" className="bg-blue-500 w-full py-2 rounded text-white font-bold
-                                    focus:outline-none focus:shadow-outline">
+                                    focus:outline-none focus:shadow-outline hover:bg-black transition duration-200">
                                     Subscribe to monthly newsletter
                                 </button>
                             </div>
@@ -46,7 +46,7 @@ function Signup() {
                     </div>
                 </div>
                 <div className="md:w-[47%] p-3">
-                    <div className="border rounded h-full bg-no-repeat bg-cover"
+                    <div className="border rounded h-60 md:h-full bg-no-repeat bg-cover"
                         style={{ backgroundImage: `url(/bg1.jpeg)` }}>
                         
                     </div>
